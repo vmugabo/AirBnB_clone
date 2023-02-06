@@ -1,26 +1,44 @@
 # AirBnB_clone
 This project is the first step towards building a full web application: the AirBnB clone.
 
+
 Table of Contents
+
 Objectives
+
 Requirements
+
 Installation and execution
+
 Console commands
+
 Tests
+
 Development environment
+
 Authors
 
 Objectives
 
 How to create a Python package
+
+
 How to create a command interpreter in Python using the cmd module
+
 What is Unit testing and how to implement it in a large project
+
 How to serialize and deserialize a Class
+
 How to write and read a JSON file
+
 How to manage datetime
+
 What is an UUID
+
 What is *args and how to use it
+
 What is **kwargs and how to use it
+
 How to handle named arguments in a function
 
 Requirements
@@ -83,28 +101,40 @@ All the classes are handled by the Storage engine in the FileStorage Class.
   
 4.Testing - Unittest modules
 All the test are defined in the tests folder.
-Documentation
+
+  Documentation
 Modules:
 python3 -c 'print(__import__("my_module").__doc__)'
-Classes:
+
+  Classes:
 python3 -c 'print(__import__("my_module").MyClass.__doc__)'
-Functions (inside and outside a class):
+
+  Functions (inside and outside a class):
 python3 -c 'print(__import__("my_module").my_function.__doc__)'
 and
 python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 
 Python Unit Tests
-Unittest module
-File extension .py
-Files and folders start with test_
-Organization:for models/base.py, unit tests in: tests/test_models/test_base.py
-Execution command: python3 -m unittest discover tests
+
+  Unittest module
+
+  File extension .py
+
+  Files and folders start with test_
+
+  Organization:for models/base.py, unit tests in: tests/test_models/test_base.py
+
+  Execution command: python3 -m unittest discover tests
 or: python3 -m unittest tests/test_models/test_base.py
 
-5. Development Environment
+
+  5. Development Environment
   Style guidelines:
     pycodestyle (version 2.7.*)
     PEP8
- 6. Authors 
+ 
+  6. Authors 
+  
   Vincent Mugabo
+  
   Fiona Githaiga 
