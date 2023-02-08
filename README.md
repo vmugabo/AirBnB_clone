@@ -1,4 +1,5 @@
-# AirBnB_clone
+0x00. AirBnB clone - The console
+
 This project is the first step towards building a full web application: the AirBnB clone.
 
 
@@ -21,7 +22,6 @@ Authors
 Objectives
 
 How to create a Python package
-
 
 How to create a command interpreter in Python using the cmd module
 
@@ -47,7 +47,7 @@ All files were interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3
 
 Installation and execution
 
-  Clone the repository
+Clone the repository
 https://github.com/vmugabo/AirBnB_clone.git
     
  Move in to the directory
@@ -59,7 +59,7 @@ Execute the console file
 Console commands
 
 The commands available for this command interpreter are:
-Name 	Description
+
 *create 	- Creates a new instance of the class passed by argument.
 
 show 	    - Prints the string representation of an instance.
@@ -77,7 +77,6 @@ quit 	    - Exit the console.
 EOF 	    - Exit the console.
 
 *create, destroy and update commands save changes into a JSON file.
-Command 	Usage
 
 create 	  - create <class_name>
 
@@ -126,8 +125,7 @@ Python Unit Tests
 
   Execution command: python3 -m unittest discover tests
 or: python3 -m unittest tests/test_models/test_base.py
-
-
+  
   5. Development Environment
   Style guidelines:
     pycodestyle (version 2.7.*)
